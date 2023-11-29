@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="catRun.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catGame</title>
+    <link href="game.css" rel="stylesheet" />
+</head>
+
+<body onload="start()">
+    <div class="background-container">
+        <div class="background-image"></div>
+      </div>
+      <div id="timer"></div>
+      <div id="score"></div>
+      <img src="catRun.png" id="cat">
+      <img src="sun.png" class="sun">
+
+    <audio id="rekaAudio" loop>
+        <source src="reka.mp3" type="audio/mpeg" >
+    </audio>
+    <audio id="oops">
+        <source src="oops.WAV" type="audio/mpeg" >
+    </audio>
+    <audio id="food">
+        <source src="food.WAV" type="audio/mpeg" >
+    </audio>
+</body>
+<script src="game.js"></script>
+</html>
